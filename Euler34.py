@@ -1,3 +1,6 @@
+# Program to find the sum of all numbers which are equal to the sum of the factorial
+# of their digits
+
 import time
 
 fact = [1]
@@ -17,3 +20,5 @@ for i in range(10, 7*fact[9]):
 
 print(tot)
 print(time.time()-start)
+
+#answer: 40730
