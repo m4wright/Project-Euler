@@ -1,3 +1,7 @@
+# Program to find the difference between the pair of pentagonal numbers for which
+#their sum and difference are pentagonal and is minimised
+
+
 from Number_Theory import isPentagonal
 from time import time
 
@@ -26,3 +30,5 @@ while test:
 
 
 print(num1, num2, num1-num2, time()-start)
+
+#answer: 5482660
